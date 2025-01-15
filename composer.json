@@ -1,8 +1,8 @@
 {
-    "name": "apimatic-sdks/pplussubscriptionpapi",
+    "name": "apimatic-sdks/pearsonsubscriptionsapi",
     "type": "library",
     "keywords": [
-        "pplus-subscription-papi",
+        "Pearson Subscriptions API",
         "API",
         "SDK"
     ],
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PplusSubscriptionPapiLib\\": "src/"
+            "PearsonSubscriptionsAPILib\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PplusSubscriptionPapiLib\\Tests\\": "tests/"
+            "PearsonSubscriptionsAPILib\\Tests\\": "tests/"
         }
     },
     "scripts": {

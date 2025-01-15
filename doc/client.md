@@ -20,13 +20,13 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```php
-$client = PplusSubscriptionPapiClientBuilder::init()
+$client = PearsonSubscriptionsAPIClientBuilder::init()
     ->environment(Environment::PRODUCTION)
     ->defaultHost('www.example.com')
     ->build();
 ```
 
-## pplus-subscription-papi Client
+## Pearson Subscriptions API Client
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
